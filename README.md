@@ -50,4 +50,6 @@
 
 ### Map
 - Wall
-- Trap
+- Trap\
+![Trap](https://user-images.githubusercontent.com/93506849/183345142-85541c5d-9e5d-40f4-b1ed-649dd73f902a.JPG)
+-닿으면 동작 끝
