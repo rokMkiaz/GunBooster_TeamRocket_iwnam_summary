@@ -39,3 +39,8 @@
 
 
 ### Enemy
+
+
+### Map
+- Wall
+- Trap
