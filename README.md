@@ -1,4 +1,4 @@
-## Unity를 사용한 Android게임 개발\
+## Unity를 사용한 Android게임 개발
 목표 : 세로형 레그돌을 사용한 하이퍼 캐쥬얼 퍼즐게임 제작
 
 ### BaseSystem
@@ -18,7 +18,6 @@
 -Ragdoll을 On/Off해주기 위해 넣어준다. 처음부터 바닥에 기어다니니 보기가 안좋았다.\
 ![유저](https://user-images.githubusercontent.com/93506849/183338249-b739a23f-a228-442e-8025-18625f4c1784.JPG)\
 -해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
-
 ![Fire](https://user-images.githubusercontent.com/93506849/183338029-43d49c38-fcf9-46ef-ac3a-ec319a84ce9f.JPG)\
 ![fire위치](https://user-images.githubusercontent.com/93506849/183337342-04eee02b-8bc6-4206-b83f-0c5f1a39c394.JPG)\
 -사격은 나중에 한손으로 하니 오른쪽 로우암에 넣어주었다.\
