@@ -1,5 +1,5 @@
 ## Unity를 사용한 Android게임 개발\
-목표 : 세로형 하이퍼 캐쥬얼 게임
+목표 : 세로형 레그돌을 사용한 하이퍼 캐쥬얼 게임
 
 ### BaseSystem
 - Raycast\
@@ -12,12 +12,20 @@
 
 
 ### Chracter
+- Player\
+![Aiming](https://user-images.githubusercontent.com/93506849/183337142-1acf49b7-0305-4c11-b8f3-136282fa57d8.JPG)\
+-타겟(마우스)위치와 자신이 속한 오브젝트의 위치를 비교하여 몸체를 회전시킨다.\
+![Fire](https://user-images.githubusercontent.com/93506849/183337676-e5f6a240-c229-47c3-b058-dffb03425780.JPG)
+![fire위치](https://user-images.githubusercontent.com/93506849/183337342-04eee02b-8bc6-4206-b83f-0c5f1a39c394.JPG)\
+-사격은 나중에 한손으로 하니 로우암에 넣어주고 반동을 받아준다.
+
+
 - Camera\
 ![CameraMove](https://user-images.githubusercontent.com/93506849/183330579-47110c61-dfa6-4f6d-9163-f5b1f4c5df63.JPG)
 ![KakaoTalk_20220808_120710274](https://user-images.githubusercontent.com/93506849/183330732-21193113-8b23-4f7b-a2a0-10925e879045.gif)\
 -세로로 잡고하는 게임이므로 카매라 무빙에 신경을써보았는데, 마우스의 위치(후에 터치 위치)에 따라 x축에 offset을 주어 처리 하였다.캐릭터가 항상아래오도록 y축은 고정 오프셋이다.
 
-- Player
+
 
 - Weapon
 
