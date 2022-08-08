@@ -16,11 +16,10 @@
 ![Aiming](https://user-images.githubusercontent.com/93506849/183337142-1acf49b7-0305-4c11-b8f3-136282fa57d8.JPG)\
 -타겟(마우스)위치와 자신이 속한 오브젝트의 위치를 비교하여 몸체를 회전시킨다.\
 -Ragdoll을 On/Off해주기 위해 넣어준다. 처음부터 바닥에 기어다니니 보기가 안좋았다.\
-![유저](https://user-images.githubusercontent.com/93506849/183338249-b739a23f-a228-442e-8025-18625f4c1784.JPG)\
--해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
 ![Fire](https://user-images.githubusercontent.com/93506849/183338029-43d49c38-fcf9-46ef-ac3a-ec319a84ce9f.JPG)\
-![fire위치](https://user-images.githubusercontent.com/93506849/183337342-04eee02b-8bc6-4206-b83f-0c5f1a39c394.JPG)\
--조준 후 버튼을 때는 순간 총알오브젝트를 형성하게 만들었으며, 사격은 나중에 한손으로 하니 스크립트는 오른쪽 로우암에 넣어주었다.\
+-사격할때 반동으로 밀려나가기 위한 스크립트 사격위치와 타겟의 위치를 받는다.
+![user](https://user-images.githubusercontent.com/93506849/183376721-88954e83-b620-4787-bd4c-ff89e3c734ad.JPG)\
+-해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
 ![KakaoTalk_20220808_130430759](https://user-images.githubusercontent.com/93506849/183338350-44217eab-44d2-4512-a9ba-4ac987bcc639.gif)
 
 
