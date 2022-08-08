@@ -20,7 +20,7 @@
 -해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
 ![Fire](https://user-images.githubusercontent.com/93506849/183338029-43d49c38-fcf9-46ef-ac3a-ec319a84ce9f.JPG)\
 ![fire위치](https://user-images.githubusercontent.com/93506849/183337342-04eee02b-8bc6-4206-b83f-0c5f1a39c394.JPG)\
--사격은 나중에 한손으로 하니 오른쪽 로우암에 넣어주었다.\
+-조준 후 버튼을 때는 순간 총알오브젝트를 형성하게 만들었으며, 사격은 나중에 한손으로 하니 스크립트는 오른쪽 로우암에 넣어주었다.\
 ![KakaoTalk_20220808_130430759](https://user-images.githubusercontent.com/93506849/183338350-44217eab-44d2-4512-a9ba-4ac987bcc639.gif)
 
 
@@ -33,6 +33,9 @@
 
 
 
-- Weapon
+- Weapon\
+![불렛1](https://user-images.githubusercontent.com/93506849/183339015-20cd2127-40f0-4ff9-82e1-16d539e91393.JPG)\
+-Bullet는 생성된순간 타겟(마우스위치)로 날아가게 만들어주었으며, 물체에 충돌 시 삭제가 되게 해주었다. Trigger과 Collision둘다 사용한 이유는 벽에 Rigidbody 컴포넌트를 주지 않았기 때문이다. 벽에서는 물리적으로 충돌이 없으므로 Trigger로써만 총알은 벽을 감지한다.
+
 
 ### Enemy
