@@ -35,7 +35,7 @@
 
 - Weapon\
 ![불렛1](https://user-images.githubusercontent.com/93506849/183339015-20cd2127-40f0-4ff9-82e1-16d539e91393.JPG)\
--Bullet는 생성된순간 타겟(마우스위치)로 날아가게 만들어주었으며, 물체에 충돌 시 삭제가 되게 해주었다. Trigger과 Collision둘다 사용한 이유는 벽에 Rigidbody 컴포넌트를 주지 않았기 때문이다. 벽에서는 물리적으로 충돌이 없으므로 Trigger로써만 총알은 벽을 감지한다.
+-Bullet는 생성된순간 타겟(마우스위치)로 날아가게 만들어주었으며, 물체에 충돌 시 삭제가 되게 해주었다. Trigger과 Collision둘다 사용한 이유는 Map전체에 Rigidbody를 주어 벽에Rigidbody 컴포넌트를 주지 않았기 때문이다. 벽에서는 물리적으로 충돌이 없으므로 Trigger로써만 총알은 벽을 감지한다.
 
 
 ### Enemy
