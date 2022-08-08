@@ -42,6 +42,7 @@
 - Search & AI\
 ![AI1](https://user-images.githubusercontent.com/93506849/183344733-866f4680-3c11-462c-844b-6645124e990f.JPG)\
 ![Search](https://user-images.githubusercontent.com/93506849/183342959-ea7e3ca7-c76d-4bd9-ad31-2e6126d9a9b0.JPG)\
+![KakaoTalk_20220808_165739069](https://user-images.githubusercontent.com/93506849/183368907-0e32c3a5-8545-4ac2-862a-f107926861e5.gif)\
 -기본적으로 큰 Trigger형 충돌체 하나와 몸체를 이루는 Collision으로 구성되어 있다.\
 -Trigger는 Player를 찾는 용도로 사용하며 발견하면 즉시 자신의 속도로 돌진을 하게 설정되어있다.\
 -Patrol은 X축 고정 Y축고정등 원하는 설정을 할 수 있으며 코루틴을 이용해 시간에 따라 명령을 발생시키는 방식으로 사용하였다.\
