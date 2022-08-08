@@ -39,6 +39,12 @@
 
 
 ### Enemy
+- Search & AI\
+![AI1](https://user-images.githubusercontent.com/93506849/183342610-6ba0f332-01aa-4b86-a2d3-f3b1c772ba14.JPG)\
+![Search](https://user-images.githubusercontent.com/93506849/183342959-ea7e3ca7-c76d-4bd9-ad31-2e6126d9a9b0.JPG)\
+-기본적으로 큰 Trigger형 충돌체 하나와 몸체를 이루는 Collision으로 구성되어 있다.\
+-Trigger는 Player를 찾는 용도로 사용하며 발견하면 즉시 자신의 속도로 돌진을 하게 설정되어있다.\
+-Patrol은 X축 고정 Y축고정등 원하는 설정을 할 수 있으며 코루틴을 이용해 시간에 따라 명령을 발생시키는 방식으로 사용하였다.\
 
 
 ### Map
