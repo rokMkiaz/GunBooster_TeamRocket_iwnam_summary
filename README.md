@@ -55,7 +55,7 @@
 -닿으면 동작 끝
 
 ### UI
--UI Setting\
+- UI Setting\
 ![ui사라짐](https://user-images.githubusercontent.com/93506849/183366961-91c1d4be-5268-414b-b0e2-0ebb080c1c82.JPG)\
 -기종에 해상도 설정으로 UI가 잘릴 수 있는데 해당 부분을 스케일로 바꾸고 해상도를 넣어주면 비율대로 적용된다\
 -Expand:해상도가 커짐에 따라 수평,수직으로 확장/ Shrink : 설정값 보다 커지면 모두 잘라냄..
