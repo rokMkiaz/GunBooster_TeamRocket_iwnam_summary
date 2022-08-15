@@ -67,7 +67,7 @@
 -Monster HPBar\
 ![Slider유아이를통해 작성](https://user-images.githubusercontent.com/93506849/184577236-07a2c432-cead-4fbc-9773-67d0f1a08f1d.JPG)\
 ![HPbar](https://user-images.githubusercontent.com/93506849/184577248-477cee35-913d-41f8-b5d4-dafa3b90b13f.JPG)\
--Monster HP를 받아와서 표시\
+-Monster HP를 받아와서 표시, Slider 를 사용하여 만들어 보았다.\
 ![HPMove](https://user-images.githubusercontent.com/93506849/184577255-c3ffb7fe-851e-455f-b2d3-d0b35da3b846.JPG)\
 -Offset을 이용해 머리 상단에 표시되게 만든 뒤 몬스터의 위치에 따라 움직이게 변환을 시켜준다.\
 ![hp추 가!](https://user-images.githubusercontent.com/93506849/184577318-ebf6104f-249d-4695-9b65-9bc1a36a5be0.JPG)\
