@@ -70,7 +70,7 @@
 -Monster HP를 받아와서 표시, Slider 를 사용하여 만들어 보았다.\
 ![HPMove](https://user-images.githubusercontent.com/93506849/184577255-c3ffb7fe-851e-455f-b2d3-d0b35da3b846.JPG)\
 -Offset을 이용해 머리 상단에 표시되게 만든 뒤 몬스터의 위치에 따라 움직이게 변환을 시켜준다.\
-![hp추 가!](https://user-images.githubusercontent.com/93506849/184577318-ebf6104f-249d-4695-9b65-9bc1a36a5be0.JPG)\
+![KakaoTalk_20220815_133705741](https://user-images.githubusercontent.com/93506849/184577787-5fcc8ac6-49a4-4dd1-a6a0-5b0dd64850a8.gif)
 
 
 
