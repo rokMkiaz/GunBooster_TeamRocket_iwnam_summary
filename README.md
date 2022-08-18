@@ -91,4 +91,5 @@
 -joystick이 꺼졌다 켜졌다 하면 Eventsystem이 바로 동작하지 않기 때문에 범위용 판넬을 하나 깔아주었다.\
 ![결합](https://user-images.githubusercontent.com/93506849/185297956-ab0cf13b-2107-4027-a8fa-b55326694be9.JPG)\
 -카메라에 결합해주고 사용자 터치에만 조이스틱이 활성화 되게 코딩해주었다.\
-
+![KakaoTalk_20220818_141253634](https://user-images.githubusercontent.com/93506849/185299244-eb40e8bd-bd9a-4201-9d15-d30bf7252366.gif)
+-2번정도 싸웠더니 이겨서 다행이다..EventSystem이해에 도움이 많이 되는거 같다.
