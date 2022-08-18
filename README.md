@@ -67,7 +67,7 @@
 -기종에 해상도 설정으로 UI가 잘릴 수 있는데 해당 부분을 스케일로 바꾸고 해상도를 넣어주면 비율대로 적용된다\
 -Expand:해상도가 커짐에 따라 수평,수직으로 확장/ Shrink : 설정값 보다 커지면 모두 잘라냄..
 
--Monster HPBar\
+- Monster HPBar\
 ![Slider유아이를통해 작성](https://user-images.githubusercontent.com/93506849/184577236-07a2c432-cead-4fbc-9773-67d0f1a08f1d.JPG)\
 ![HPbar](https://user-images.githubusercontent.com/93506849/184577248-477cee35-913d-41f8-b5d4-dafa3b90b13f.JPG)\
 -Monster HP를 받아와서 표시, Slider 를 사용하여 만들어 보았다.\
@@ -75,5 +75,20 @@
 -Offset을 이용해 머리 상단에 표시되게 만든 뒤 몬스터의 위치에 따라 움직이게 변환을 시켜준다.\
 ![KakaoTalk_20220815_133705741](https://user-images.githubusercontent.com/93506849/184577787-5fcc8ac6-49a4-4dd1-a6a0-5b0dd64850a8.gif)
 
-
+- User Joystick\
+![디자인](https://user-images.githubusercontent.com/93506849/185296211-3ae700a0-2d84-4e30-935c-ae1434394eaf.JPG)\
+![조이스틱 위치](https://user-images.githubusercontent.com/93506849/185296254-ba99904a-7e4e-49d8-bee6-5d8edcb871b9.JPG)\
+-일단 모양과 스크립트를 만들어준다.
+![조이스틱 선언-위치](https://user-images.githubusercontent.com/93506849/185296514-e967a4fa-c4dd-47c5-8367-1c9b1d54c9f4.JPG)
+![업데이트](https://user-images.githubusercontent.com/93506849/185296799-0990f637-080b-4349-bd48-70052c7c1665.JPG)\- 
+-설계를 눌렀을 때 나오고 손때면 다시 꺼지게 할 생각이므로 Joystick의 게임 오브젝트가 수시로 ON/Off처리된다. 그러므로 없을경우 재 할당하게끔 처리해 주었다.\
+-EventSystem에서 출력되는 값은 ON/Off정도 해줘야 업데이트가 가능하므로 bTouch가 되면 joystick과 연동된 타겟이 동작하게 해주었다.
+-타겟이 일정범위를 벗어나면 플레이어의 중심으로 돌아가게 해주었다.(카매라 범위지정해서 충돌일으키는 방법 보다 좋은거같아서 해주었다.)
+![불값 반환](https://user-images.githubusercontent.com/93506849/185297387-702071c6-345a-4952-9915-85c4c5f6ab16.JPG)
+-EventSystem과 Stick이동 시 코드는 이렇게 짜보았다. 결국 2차원 평면게임에다가 타겟은 굳이 회전할 필요가 없기에 xy축만 해당 방향으로 움직이게 해주었다.\
+-추가적으로 게임성을 위해 스틱이동시에만 총쏘자는 의견이 있어 반영해 드렸다.\
+![이후판넬](https://user-images.githubusercontent.com/93506849/185297719-1d58c4e5-dc40-41f9-a17b-bfe43d017240.JPG)\
+-joystick이 꺼졌다 켜졌다 하면 Eventsystem이 바로 동작하지 않기 때문에 범위용 판넬을 하나 깔아주었다.\
+![결합](https://user-images.githubusercontent.com/93506849/185297956-ab0cf13b-2107-4027-a8fa-b55326694be9.JPG)\
+-카메라에 결합해주고 사용자 터치에만 조이스틱이 활성화 되게 코딩해주었다.\
 
