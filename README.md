@@ -78,8 +78,8 @@
 - User Joystick\
 ![디자인](https://user-images.githubusercontent.com/93506849/185296211-3ae700a0-2d84-4e30-935c-ae1434394eaf.JPG)\
 ![조이스틱 위치](https://user-images.githubusercontent.com/93506849/185296254-ba99904a-7e4e-49d8-bee6-5d8edcb871b9.JPG)\
--일단 모양과 스크립트를 만들어준다.
-![조이스틱 선언-위치](https://user-images.githubusercontent.com/93506849/185296514-e967a4fa-c4dd-47c5-8367-1c9b1d54c9f4.JPG)
+-일단 모양과 스크립트를 만들어준다.\
+![조이스틱 선언-위치](https://user-images.githubusercontent.com/93506849/185296514-e967a4fa-c4dd-47c5-8367-1c9b1d54c9f4.JPG)\
 ![업데이트](https://user-images.githubusercontent.com/93506849/185296799-0990f637-080b-4349-bd48-70052c7c1665.JPG)\
 -설계를 눌렀을 때 나오고 손때면 다시 꺼지게 할 생각이므로 Joystick의 게임 오브젝트가 수시로 ON/Off처리된다. 그러므로 없을경우 재 할당하게끔 처리해 주었다.\
 -EventSystem에서 출력되는 값은 ON/Off정도 해줘야 업데이트가 가능하므로 bTouch가 되면 joystick과 연동된 타겟이 동작하게 해주었다.
@@ -91,5 +91,5 @@
 -joystick이 꺼졌다 켜졌다 하면 Eventsystem이 바로 동작하지 않기 때문에 범위용 판넬을 하나 깔아주었다.\
 ![결합](https://user-images.githubusercontent.com/93506849/185297956-ab0cf13b-2107-4027-a8fa-b55326694be9.JPG)\
 -카메라에 결합해주고 사용자 터치에만 조이스틱이 활성화 되게 코딩해주었다.\
-![KakaoTalk_20220818_141253634](https://user-images.githubusercontent.com/93506849/185299244-eb40e8bd-bd9a-4201-9d15-d30bf7252366.gif)
+![KakaoTalk_20220818_141253634](https://user-images.githubusercontent.com/93506849/185299244-eb40e8bd-bd9a-4201-9d15-d30bf7252366.gif)\
 -2번정도 싸웠더니 이겨서 다행이다..EventSystem이해에 도움이 많이 되는거 같다.
