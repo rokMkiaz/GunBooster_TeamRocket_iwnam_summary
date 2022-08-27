@@ -48,7 +48,7 @@
 -Player를 찾았는데 코루틴을 안끄는 이유는 벽을 옆으로 돌아가게 약간 비비는기능을 넣어주고 싶었기 때문이다.(저렴한AI..)\
 ![서치를최상위](https://user-images.githubusercontent.com/93506849/184577033-2dab6d25-a869-4107-8995-42ad9a02e358.JPG)\
 ![블랜더](https://user-images.githubusercontent.com/93506849/184589598-6d71809b-f51f-4878-9b99-196e3916f1d2.JPG)\
--Search를 최상위로 받아 몬스터 스크립트를 작성, Search의 상태를 받아와서 Animater를 사용한다.
+-Search를 최상위로 받아 몬스터 스크립트를 작성, Search의 상태를 받아와서 Animater를 사용한다.\
 -애니메이터와 파라미터는 위와같이 설정을 해주었다.
 
 
