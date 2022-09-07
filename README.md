@@ -1,5 +1,6 @@
 ## Unity를 사용한 Android게임 개발
-목표 : 레그돌을 사용한 하이퍼 캐쥬얼 퍼즐게임 제작
+목표 : 레그돌을 사용한 하이퍼 캐쥬얼 퍼즐게임 제작\
+간단 소개 영상-> https://studio.youtube.com/video/IeHmAAoZXs8/edit
 
 ### BaseSystem
 - Raycast\
@@ -92,4 +93,6 @@
 ![결합](https://user-images.githubusercontent.com/93506849/185297956-ab0cf13b-2107-4027-a8fa-b55326694be9.JPG)\
 -카메라에 결합해주고 사용자 터치에만 조이스틱이 활성화 되게 코딩해주었다.\
 ![KakaoTalk_20220818_142944729](https://user-images.githubusercontent.com/93506849/185301357-216a8a19-df5d-4319-a6f6-d7ee8f6c726d.gif)
+
+
 
