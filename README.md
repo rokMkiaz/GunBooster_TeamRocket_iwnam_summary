@@ -1,6 +1,6 @@
 ## Unity를 사용한 Android게임 개발
 목표 : 레그돌을 사용한 하이퍼 캐쥬얼 퍼즐게임 제작\
-간단 소개 영상-> https://studio.youtube.com/video/IeHmAAoZXs8/edit
+간단 소개 영상-> https://www.youtube.com/watch?v=IeHmAAoZXs8
 
 ### BaseSystem
 - Raycast\
