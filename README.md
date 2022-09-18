@@ -81,7 +81,7 @@
 ![조이스틱 위치](https://user-images.githubusercontent.com/93506849/185296254-ba99904a-7e4e-49d8-bee6-5d8edcb871b9.JPG)\
 -일단 모양과 스크립트를 만들어준다.\
 ![조이스틱 선언-위치](https://user-images.githubusercontent.com/93506849/185296514-e967a4fa-c4dd-47c5-8367-1c9b1d54c9f4.JPG)\
-![업데이트](https://user-images.githubusercontent.com/93506849/185296799-0990f637-080b-4349-bd48-70052c7c1665.JPG)\
+![조이스틱 업데이 수정](https://user-images.githubusercontent.com/93506849/190901125-6c5a5f70-fef2-411f-a196-fd6b0f421d3c.JPG)\
 -설계를 눌렀을 때 나오고 손때면 다시 꺼지게 할 생각이므로 Joystick의 게임 오브젝트가 수시로 ON/Off처리된다. 그러므로 없을경우 재 할당하게끔 처리\
 -EventSystem에서 출력되는 값은 ON/Off정도 해줘야 업데이트가 가능하므로 bTouch가 되면 joystick과 연동된 타겟이 동작하게 해주었다.\
 -타겟이 일정범위를 벗어나면 플레이어의 중심으로 돌아가게 해주었다.(카매라 범위지정해서 충돌일으키는 방법 보다 좋은거같아서 해주었다.)\
