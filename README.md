@@ -11,7 +11,7 @@
 - Letter Box\
 ![레터박스](https://user-images.githubusercontent.com/93506849/193741567-e67b7586-1fd9-42af-9c09-eee8b70147b6.JPG)\
 -모바일 환경에서 핸드폰 기종에 따라 다른 화면크기를 적용하기 위해 레터박스 기능을 활용해 주었다.\
--설정비를 벗어나면 컬링해주고 Black로 설정을 해주었다.
+-설정비를 벗어나면 컬링해주고 Black로 설정을 하게 해주었다.Main Camera에 셋팅해주었다.
 
 
 
