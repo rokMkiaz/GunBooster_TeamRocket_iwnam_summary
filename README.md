@@ -7,8 +7,11 @@
 ![ra1](https://user-images.githubusercontent.com/93506849/183329773-15173325-fe04-472f-9146-bfe58d447f25.png)\
 ![image](https://user-images.githubusercontent.com/93506849/183329503-e06a9fae-505f-4708-ad00-37cdff711c94.png)\
 -유니티에 있는 Ray구조체를 이용해 Targer의 거리를 알아낸다.\
--Target에서는 Camera에서 쏘여진 ray(마우스 위치)를 받고 rayhit이 발생하면 해당 위치로 위치를 이동해 준다. 여기서Z축 좌표(평면)가 고정인 게임을 만들꺼라 z는 자신의 위치 그대로 해주었다.
-
+-Target에서는 Camera에서 쏘여진 ray(마우스 위치)를 받고 rayhit이 발생하면 해당 위치로 위치를 이동해 준다. 여기서Z축 좌표(평면)가 고정인 게임을 만들꺼라 z는 자신의 위치 그대로 해주었다.\
+- Letter Box\
+![레터박스](https://user-images.githubusercontent.com/93506849/193741567-e67b7586-1fd9-42af-9c09-eee8b70147b6.JPG)\
+-모바일 환경에서 핸드폰 기종에 따라 다른 화면크기를 적용하기 위해 레터박스 기능을 활용해 주었다.\
+-설정비를 벗어나면 컬링해주고 Black로 설정을 해주었다.
 
 
 
