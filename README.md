@@ -102,15 +102,15 @@
 - Facebook SDK\
 ![Facebooksdk](https://user-images.githubusercontent.com/93506849/195235347-7a045518-ca80-40bf-850e-8abd93e49d16.JPG)\
 https://developers.facebook.com/docs/unity/getting-started/android \
--모바일 앱 홍보 및 광고 용도로 설치\
+-모바일 앱 홍보 및 광고배포 용도로 설치
 - Firebase SDK\
 ![firebase](https://user-images.githubusercontent.com/93506849/195235645-aacc57d1-3179-404a-941d-af8e0b8d5f13.JPG)\
 https://firebase.google.com/docs/unity/setup?hl=ko \
 -설치 및 제거, 플레이시간 등 추적을 위해 설치\
-- Singular SDK\
+- Singular SDK
 ![Singular](https://user-images.githubusercontent.com/93506849/195236164-5c1111ed-5adf-419c-a51a-dda286422583.JPG)\
 https://support.singular.net/hc/ko/articles/360037635452 \
--Firebase와 동일한 용도로 설치\
+-Firebase와 동일한 용도로 설치
 
 
 
