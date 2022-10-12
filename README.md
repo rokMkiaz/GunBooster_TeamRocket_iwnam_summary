@@ -107,7 +107,7 @@ https://developers.facebook.com/docs/unity/getting-started/android \
 ![firebase](https://user-images.githubusercontent.com/93506849/195235645-aacc57d1-3179-404a-941d-af8e0b8d5f13.JPG)\
 https://firebase.google.com/docs/unity/setup?hl=ko \
 -설치 및 제거, 플레이시간 등 추적을 위해 설치\
-- Singular SDK
+- Singular SDK\
 ![Singular](https://user-images.githubusercontent.com/93506849/195236164-5c1111ed-5adf-419c-a51a-dda286422583.JPG)\
 https://support.singular.net/hc/ko/articles/360037635452 \
 -Firebase와 동일한 용도로 설치
