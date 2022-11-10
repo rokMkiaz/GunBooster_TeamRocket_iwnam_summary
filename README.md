@@ -69,7 +69,7 @@
 -입력된 시간들을 기준으로 Laser들이 켜졌다 꺼졌다 설정을 시켜준다.\
 ![세팅](https://user-images.githubusercontent.com/93506849/201021049-3eed2e48-027a-4358-825c-ae190b7c8d3b.JPG)\
 ![trap setting](https://user-images.githubusercontent.com/93506849/201021612-9f1eb3ad-c0bf-420b-bc55-ca932c0fa1cd.PNG)\
--Laser개별로는 이펙트와, 위의 Trap 스크립트를 넣어준다.
+-Laser개별로는 이펙트와, 위의 Trap 스크립트를 넣어준다.\
 ![KakaoTalk_20221110_155307209](https://user-images.githubusercontent.com/93506849/201021989-f1ad2298-a96d-45a4-b810-3e881009c632.gif)
 
 ### UI
