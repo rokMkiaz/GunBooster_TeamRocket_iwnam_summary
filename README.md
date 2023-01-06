@@ -24,7 +24,7 @@
 -Ragdoll을 On/Off해주기 위해 넣어준다. 처음부터 바닥에 기어다니니 보기가 안좋았다.\
 ![Fire](https://user-images.githubusercontent.com/93506849/183338029-43d49c38-fcf9-46ef-ac3a-ec319a84ce9f.JPG)\
 -사격할때 반동으로 밀려나가기 위한 스크립트 사격위치와 타겟의 위치를 받는다.\
-<mark style='background-color: #dcffe4'>-보완점 : ObjectPooling을 안사용하였다.[다음 프로젝트](https://github.com/rokMkiaz/POOOO-Games-Test-retrospect)에서는 적용하였으므로 참고.</mark>\
+"red" -보완점 : ObjectPooling을 안사용하였다.[다음 프로젝트](https://github.com/rokMkiaz/POOOO-Games-Test-retrospect)에서는 적용하였으므로 참고.
 ![user](https://user-images.githubusercontent.com/93506849/183376721-88954e83-b620-4787-bd4c-ff89e3c734ad.JPG)\
 -해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
 ![KakaoTalk_20220808_130430759](https://user-images.githubusercontent.com/93506849/183338350-44217eab-44d2-4512-a9ba-4ac987bcc639.gif)
