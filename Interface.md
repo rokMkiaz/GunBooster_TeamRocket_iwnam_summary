@@ -20,5 +20,5 @@
 - interface 키워드를 붙혀 생성하고 관련된 순수가상함수를 만들어 준다.
 
 ![2](https://user-images.githubusercontent.com/93506849/210957804-b6a35056-e30c-4371-969e-359eccfec8ef.png)
-- 상속받을 때는 : 옆에 적고 여러개 일 때는 ,로 추가해 준다.
+- 상속받을 때는 : 옆에 적고 여러개 일 때는 ,로 추가해 준다.\
 출처 : [유니티24_C#14_인터페이스(Interface)](https://fiftiesstudy.tistory.com/208)
