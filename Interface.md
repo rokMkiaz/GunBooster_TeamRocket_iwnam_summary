@@ -16,7 +16,8 @@
 - 추상 클래스와 마찬가지로 인스턴스(객체)를 생성할 수 없다.
 
 #### 예시
-![image](https://user-images.githubusercontent.com/93506849/210956677-87e3f00d-5191-4f69-a903-f6aec07cd47e.png)
+![1](https://user-images.githubusercontent.com/93506849/210957794-c28a02f2-50bc-4e6f-a301-01942ce93305.png)
 - interface 키워드를 붙혀 생성하고 관련된 순수가상함수를 만들어 준다.
-![image](https://user-images.githubusercontent.com/93506849/210956746-02c2299a-6cc7-4baf-8359-1c7c77bb7288.png)
+
+![2](https://user-images.githubusercontent.com/93506849/210957804-b6a35056-e30c-4371-969e-359eccfec8ef.png)
 - 상속받을 때는 : 옆에 적고 여러개 일 때는 ,로 추가해 준다.
