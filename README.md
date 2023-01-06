@@ -101,7 +101,7 @@
 ![불값 반환](https://user-images.githubusercontent.com/93506849/185297387-702071c6-345a-4952-9915-85c4c5f6ab16.JPG)
 -EventSystem과 Stick이동 시 코드는 이렇게 짜보았다. 결국 2차원 평면게임에다가 타겟은 굳이 회전할 필요가 없기에 xy축만 해당 방향으로 움직이게 해주었다.\
 -추가적으로 게임성을 위해 스틱이동시에만 총쏘자는 의견이 있어 반영해 드렸다.\
--[InterFace함수 사용에 관하여](https://github.com/rokMkiaz/GunBooster_TeamRocket_iwnam_summary/blob/main/Interface.md)
+-[InterFace사용에 관하여](https://github.com/rokMkiaz/GunBooster_TeamRocket_iwnam_summary/blob/main/Interface.md)
 ![이후판넬](https://user-images.githubusercontent.com/93506849/185297719-1d58c4e5-dc40-41f9-a17b-bfe43d017240.JPG)\
 -joystick이 꺼졌다 켜졌다 하면 Eventsystem이 바로 동작하지 않기 때문에 범위용 판넬을 하나 깔아주었다.\
 ![결합](https://user-images.githubusercontent.com/93506849/185297956-ab0cf13b-2107-4027-a8fa-b55326694be9.JPG)\
