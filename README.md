@@ -50,7 +50,7 @@
 ![KakaoTalk_20220808_165739069](https://user-images.githubusercontent.com/93506849/183368907-0e32c3a5-8545-4ac2-862a-f107926861e5.gif)\
 -기본적으로 큰 Trigger형 충돌체 하나와 몸체를 이루는 Collision으로 구성되어 있다.\
 -Trigger는 Player를 찾는 용도로 사용하며 발견하면 즉시 자신의 속도로 돌진을 하게 설정되어있다.\
--Patrol은 X축 고정 Y축고정등 원하는 설정을 할 수 있으며 #[코루틴](https://github.com/rokMkiaz/GunBooster_TeamRocket_iwnam_summary/blob/main/Coroutine.md) 을 이용해 시간에 따라 명령을 발생시키는 방식으로 사용하였다.\
+-Patrol은 X축 고정 Y축고정등 원하는 설정을 할 수 있으며 [코루틴](https://github.com/rokMkiaz/GunBooster_TeamRocket_iwnam_summary/blob/main/Coroutine.md) 을 이용해 시간에 따라 명령을 발생시키는 방식으로 사용하였다.\
 -Player를 찾았는데 코루틴을 안끄는 이유는 벽을 옆으로 돌아가게 약간 비비는기능을 넣어주고 싶었기 때문이다.(저렴한AI..)\
 ![서치를최상위](https://user-images.githubusercontent.com/93506849/184577033-2dab6d25-a869-4107-8995-42ad9a02e358.JPG)\
 ![블랜더](https://user-images.githubusercontent.com/93506849/184589598-6d71809b-f51f-4878-9b99-196e3916f1d2.JPG)\
