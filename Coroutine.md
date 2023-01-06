@@ -14,7 +14,7 @@
 사진과 같이 실제로 멀티 프로세스를 여러 단위로 나누지 않고 하나의 스레드에서 여러 작업을 번갈아 가며\
 처리해 멀티 스레딩 처럼 기능을 구현 하는것 이다.그러나 Unity에서는 기본적으로 멀티 스레드를 지원하지 않아 병렬 작업 시\
 Coroutine으로 처리해 줘야 하며, 서버 통신 사용을 위해 사용해야 할 경우 Queue나 Stack등에 데이터를 담아 처리해야 한다.\
-참조 : [[Unity] 유니티에서 Thread의 사용]https://timeboxstory.tistory.com/24
+참조 : [[Unity] 유니티에서 Thread의 사용](https://timeboxstory.tistory.com/24)
 
 ### Unity IEnumerator의 이해
 Unity에서 코루틴을 사용하다 보면 반환형으로 지정 하는데, 이를 열거자 인터페이스라고 한다.\
