@@ -23,7 +23,7 @@
 -타겟(마우스)위치와 자신이 속한 오브젝트의 위치를 비교하여 몸체를 회전시킨다.\
 -Ragdoll을 On/Off해주기 위해 넣어준다. 처음부터 바닥에 기어다니니 보기가 안좋았다.\
 ![Fire](https://user-images.githubusercontent.com/93506849/183338029-43d49c38-fcf9-46ef-ac3a-ec319a84ce9f.JPG)\
--사격할때 반동으로 밀려나가기 위한 스크립트 사격위치와 타겟의 위치를 받는다.
+-사격할때 반동으로 밀려나가기 위한 스크립트 사격위치와 타겟의 위치를 받는다.\
 <span style="color:red">-보완점</span> : ObjectPooling을 안사용하였다.[다음 프로젝트](https://github.com/rokMkiaz/POOOO-Games-Test-retrospect)에서는 적용하였으므로 참고.\
 ![user](https://user-images.githubusercontent.com/93506849/183376721-88954e83-b620-4787-bd4c-ff89e3c734ad.JPG)\
 -해당 스크립트들은 유저 컴포넌트에 다 넣어주었다.\
@@ -52,7 +52,7 @@
 -기본적으로 큰 Trigger형 충돌체 하나와 몸체를 이루는 Collision으로 구성되어 있다.\
 -Trigger는 Player를 찾는 용도로 사용하며 발견하면 즉시 자신의 속도로 돌진을 하게 설정되어있다.\
 -Patrol은 X축 고정 Y축고정등 원하는 설정을 할 수 있으며 [코루틴](https://github.com/rokMkiaz/GunBooster_TeamRocket_iwnam_summary/blob/main/Coroutine.md) 을 이용해 시간에 따라 명령을 발생시키는 방식으로 사용하였다.\
--Player를 찾았는데 코루틴을 안끄는 이유는 벽을 옆으로 돌아가게 약간 비비는기능을 넣어주고 싶었기 때문이다.(저렴한AI..)\
+<span style="color:red">-보완점</span> : Search를 구성할 때, 너무 비대하게 기능을 많이 넣어, Enemy자체가 되어 버렸다. Search, Patrol, Move를 각각 나누어 관리했어야 했는데, 개별적인 세팅을 끝내버리고 방치한게 잘못인 것 같다.
 ![서치를최상위](https://user-images.githubusercontent.com/93506849/184577033-2dab6d25-a869-4107-8995-42ad9a02e358.JPG)\
 ![블랜더](https://user-images.githubusercontent.com/93506849/184589598-6d71809b-f51f-4878-9b99-196e3916f1d2.JPG)\
 -Search를 최상위로 받아 몬스터 스크립트를 작성, Search의 상태를 받아와서 Animater를 사용한다.\
