@@ -5,8 +5,8 @@
 우선, 클래스는 당연하게도 다중 상속이 불가능 하다. 하지만, 인터페이스를 사용하면, \
 해당 interface의 멤버를 가질 수 있다.당연히 순수 가상함수로만 선언해야 한다.
 
-역시 가장 관리 좋은건 [스트레티지 패턴](https://github.com/rokMkiaz/POOOO-Games-Test-retrospect)을 \
-적용한 해당 프로젝트에서 여러 속성 무기를 가질 때 사용하면 좋을 것 같다.(아니면 장비에다가 써볼까..?)
+역시 가장 관리하기 좋은건 [스트레티지 패턴](https://github.com/rokMkiaz/POOOO-Games-Test-retrospect)을 적용한\
+해당 프로젝트에서 여러 속성 무기를 가질 때 사용하면 좋을 것 같다.
 
 #### 사용방법
 - 인터페이스 선언은 interface 라는 키워드를 사용한다.
