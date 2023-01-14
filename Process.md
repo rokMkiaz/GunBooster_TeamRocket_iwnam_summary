@@ -21,7 +21,7 @@
 ![dga](https://user-images.githubusercontent.com/93506849/211147963-afafcdac-c990-4c35-9b8d-564fc339f923.JPG)
 - 가비지 컬렉션이 수행될 경우 Cpu에 부하를 많이 주는데, 이럴 경우 게임에선 Frame Drop의 주 원인이 된다.
 - 문제는 Destroy를 호출 할 경우 delete를 가비지 콜렉터에서 수행하기에 언제 할 지 사용자는 알 수 없다.(그렇다고 직접적으로 호출 하는 것은 메커니즘이 간단하지 않기에 [성능상 부하가 있을 수 있다](https://overit.tistory.com/entry/C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC-Feat-%EA%B0%80%EB%B9%84%EC%A7%80%EC%BD%9C%EB%A0%89%ED%84%B0)고 한다.)
-- 그렇기에 한번에 생성과 삭제를 반복하는 프로그램을 지향 해야한다.
+- 그렇기에 한번에 생성과 삭제를 반복하는 프로그램을 지향 해야한다 .
 
 참조 : [[Unity3D] Programming - 오브젝트 풀링 기법 구현하기](https://wergia.tistory.com/203)
 
